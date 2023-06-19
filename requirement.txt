@@ -1,6 +1,6 @@
 How to run code
 before running please make sure the following programs are installed and ready to run
-1. iverilog can be found from from https://github.com/steveicarus/iverilog 
+1. iverilog can be found from https://github.com/steveicarus/iverilog 
 2. GTKwave can be downloaded for free at https://gtkwave.sourceforge.net/
 
 Before to begin to run the processor we must initialize the instruction memory with the instructions that we want to execute. 
