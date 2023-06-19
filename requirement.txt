@@ -1,0 +1,25 @@
+How to run code
+before runnign please make sure the following are installed on environment
+1. iverilog can be found from from https://github.com/steveicarus/iverilog 
+2. GTKwave can be downloaded for free at https://gtkwave.sourceforge.net/
+
+Before to begin to run the processor we must initialize the instruction memory with the instructions that we want to execute. 
+in the register file.
+
+Once the above initializations finished please compile the "Processor_tb.v" using iverilog using the following command:
+
+```
+iverilog -o gen-compiled "Processor_tb.v"
+```
+The above command generates  "gen-compile". After compilation we can execute the compiled file using:
+* execution
+
+```
+vvp gen-compiled
+```
+and thats it to see waveform plesas open the gtkwave free viewer and  please find "output_wave.vcd"
+ Use GTKWave to view the waveform file
+
+```
+gtkwave output_wave.vcd
+```
