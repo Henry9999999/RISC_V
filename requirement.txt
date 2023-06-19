@@ -1,5 +1,5 @@
 How to run code
-before runnign please make sure the following are installed on environment
+before running please make sure the following programs are installed and ready to run
 1. iverilog can be found from from https://github.com/steveicarus/iverilog 
 2. GTKwave can be downloaded for free at https://gtkwave.sourceforge.net/
 
